@@ -8,7 +8,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 205px;
+  margin-bottom: 131px;
 }
  .logo,.menu {
   display:inline-block;
@@ -16,14 +16,14 @@ body {
 .logo {
   position: relative;
   padding: 40px 0;
-  padding-left: 44px;
+  padding-left: 49px;
   font: bold 24px/31px pt_serifbold,arial,helvetica,sans-serif;
   margin-right: 60%;
 }
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%;
+  left: 4px;
+  top: 49%;
   transform: translateY(-50%);
   width: 28px;
   height: 28px;
@@ -31,7 +31,7 @@ body {
   opacity: .7;
 }
 .logo__circle_color_blue {
-  left: 8px;
+  left: 12px;
   top: 56%;
   background: #C8DBFB;
 }
@@ -41,6 +41,8 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin-right: 11px;
+  transform: translateY(2px);
 }
  .menu__item {
   position: relative;
@@ -81,15 +83,15 @@ body {
   opacity: 1;
 }
 .main {
-  padding: 0 63% 100px 0;
+  padding: 74px 66% 150px 4px;
   background: top right no-repeat url(img/mainlmg.svg);
 }
 .main__title {
-  margin: 0 0 37px 0;
+  margin: 0px 0px 36px 0px;
   font: bold 66px/87px pt_serifbold,arial,helvetica,sans-serif;
 }
 .main__subtitle {
-  margin: 0 0 40px 0;
+  margin: 0px 80px 40px 0px;
   font: 400 22px/26px Roboto,arial,helvetica,sans-serif;
 }
 .main__button {
@@ -97,7 +99,7 @@ body {
   font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 21px;
+  padding: 19px 34px 18px 22px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
