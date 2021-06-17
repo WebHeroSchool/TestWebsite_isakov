@@ -8,7 +8,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 131px;
+  margin-bottom: 132px;
 }
  .logo,.menu {
   display:inline-block;
@@ -42,7 +42,7 @@ body {
   display: flex;
   align-items: center;
   margin-right: 11px;
-  transform: translateY(2px);
+  transform: translateY(3px);
 }
  .menu__item {
   position: relative;
@@ -53,7 +53,7 @@ body {
   transition: opacity .5s;
 }
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 0px;
 }
 .menu__item:after {
   position: absolute;
@@ -84,14 +84,14 @@ body {
 }
 .main {
   padding: 74px 66% 150px 4px;
-  background: top right no-repeat url(img/mainlmg.svg);
+  background: 99% 2% no-repeat url(img/mainlmg.svg);
 }
 .main__title {
-  margin: 0px 0px 36px 0px;
+  margin: 0px 0px 36px -1px;
   font: bold 66px/87px pt_serifbold,arial,helvetica,sans-serif;
 }
 .main__subtitle {
-  margin: 0px 80px 40px 0px;
+  margin: 0px 80px 41px -1px;
   font: 400 22px/26px Roboto,arial,helvetica,sans-serif;
 }
 .main__button {
@@ -99,7 +99,7 @@ body {
   font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 19px 34px 18px 22px;
+  padding: 18px 35px 17px 21px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
